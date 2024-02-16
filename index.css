@@ -1,0 +1,151 @@
+body{
+    background-color: white;
+}
+
+nav{
+    padding: 16px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    display: none;
+}
+nav li a{
+    color: black;
+}
+
+ nav a{
+    text-decoration: none;
+    
+}
+nav button {
+    display: none;
+}
+
+
+nav h3 {
+    font-size: 22px;
+}
+
+.bta{
+    color: white;
+}
+
+   
+
+img{
+    width: 300px;
+    height: 50px;
+    
+}
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    height: 50%;
+    
+    
+}
+
+.container1 div{
+    width: 50%;
+    height: 50%;
+}
+
+
+.cnt1{
+    padding: 20px;
+   
+}
+.img2{
+    display: none;
+ 
+}
+
+.hd{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 50px;
+    font-weight: bold;
+}
+.para{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    word-spacing: 5px;
+    color: rgb(19, 15, 15);
+}
+
+div a{
+    font-size: large;
+    color: white;
+    text-decoration: none;
+
+}
+
+    button{
+        background-color: rgb(8, 116, 179);
+        border-radius: 10px;
+        color: white;
+        border: 1px;
+        height: 33px;
+        padding: 3px;
+    }
+
+    .btn2{
+        margin-top: 50px;
+        
+    }
+
+    .bta{
+        font-size: small;
+        font-weight: bold;
+    }
+
+
+    @media only screen and (min-width: 600px){
+        
+    }
+
+    @media only screen and (min-width: 1024px){
+            
+
+            nav h3 {
+                display: none;
+            }
+            
+            nav ul{
+                width: 600px;
+                display: flex;
+                list-style: none;
+                justify-content: space-between;
+                
+            }
+            nav button{
+                display: flex;
+                margin-right: 100px;
+               
+            }
+
+
+            .container1{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 20px 20px;
+            }
+            
+            .cnt1{
+                padding: 20px;
+            }
+            .img2{
+                display: flex;
+                width: 400px;
+                height: 400px;
+                background-color: white;
+                padding-top: 50px;
+                padding-right: 150px;
+            }
+        }
+
+
